@@ -1,0 +1,76 @@
+/*
+ * Your custom CSS here...
+ */
+
+.navbar-default {
+    background-color: #000000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: rgb(240, 0, 0);
+}
+.badge.badge-important,
+li.flag-menu.country-flag.tooltipHere.hidden-xs {
+    display: none;
+}
+.navbar-default .navbar-nav>li.postadd {
+    display: none;
+}
+.navbar-default .navbar-nav.navbar-right>li>a {
+    padding: 12px 2px;
+}
+.navbar-default.navbar-custom {
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+    border: 0;
+}
+.secondary-nav-bar .navbar-default.navbar-custom {
+    background-color: rgb(240, 0, 0);
+}
+.secondary-nav-bar .navbar-default.navbar-custom .navbar-nav {
+    height: 100%;
+    width: 100%;
+}
+.secondary-nav-bar .navbar-default .navbar-nav>li>a {
+    padding: 0 12px;
+    line-height: 1;
+    height: auto;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 45px;
+}
+.secondary-nav-bar .navbar-default.navbar-custom>.container {
+    height: 100%;
+}
+.secondary-nav-bar .navbar-default .navbar-nav>li.active>a {
+    color: #ffffff;
+    font-weight: bold;
+}
+.secondary-nav-bar .navbar-default .navbar-nav>li>a:hover,
+.secondary-nav-bar .navbar-default .navbar-nav>li>a:focus {
+    color: #000000;
+    background-color: transparent;
+}
+.footer-content {
+    background-color: #000000;
+}
+.footer-nav li a {
+    color: #ffffff;
+}
+.footer-title {
+    color: #ffffff;
+}
+.copy-info {
+    color: #b7b7b7;
+}
+.wide-intro h1 {
+    text-align: left;
+}
+.wide-intro .search-row {
+    margin: 0;
+}
